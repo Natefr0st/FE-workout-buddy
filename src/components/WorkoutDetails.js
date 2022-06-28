@@ -1,6 +1,6 @@
 import React from 'react';
 
-const WorkoutDetails = ({key, workout}) => {
+const WorkoutDetails = ({workout}) => {
     return (
         <div className="workout-details">
             <h4>
