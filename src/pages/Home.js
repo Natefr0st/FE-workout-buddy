@@ -17,8 +17,9 @@ const Home = () => {
             }
         }
 
-        fetchWorkouts().then(() => console.log("Fetched workouts"));
-    }, [dispatch])
+        fetchWorkouts().then(() => {});
+    }, [dispatch]);
+
     return (
         <div className="home">
             <div className="workouts">
